@@ -84,7 +84,7 @@ export default function Home() {
     }, [CA]);
 
     return (
-        <main className="min-h-screen bg-cartoon-bg text-black font-sans selection:bg-cartoon-yellow/30">
+        <main className="min-h-screen bg-cartoon-bg text-black font-comic selection:bg-cartoon-yellow/30">
 
             {/* Banner Background - Moved to top for correct stacking */}
             <div className="fixed inset-0 z-0 pointer-events-none opacity-10" style={{ backgroundImage: "url('/doodle-pattern.png')", backgroundSize: "400px" }}>
@@ -97,7 +97,7 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <img src="/vault-3d.png" alt="Logo" className="w-12 h-12 hover:rotate-12 transition-transform mix-multiply" />
-                        <h1 className="text-2xl font-black text-cartoon-dark hidden md:block tracking-tight drop-shadow-sm">THE VAULT</h1>
+                        <h1 className="text-2xl font-black text-cartoon-dark hidden md:block tracking-tight drop-shadow-sm font-cartoon">THE VAULT</h1>
                     </div>
 
                     <nav className="hidden md:flex items-center gap-6">
@@ -153,7 +153,7 @@ export default function Home() {
 
 
 
-                <h1 className="text-6xl md:text-9xl font-black text-cartoon-yellow drop-shadow-[4px_4px_0px_#000] mb-4 z-10 stroke-black text-stroke-2">
+                <h1 className="text-7xl md:text-[12rem] font-cartoon text-cartoon-yellow drop-shadow-[6px_6px_0px_#000] mb-4 z-10 stroke-black text-stroke-2 uppercase tracking-wider">
                     THE VAULT
                 </h1>
 
@@ -232,7 +232,7 @@ export default function Home() {
             <section id="about" className="py-20 px-4 text-center">
                 <div className="max-w-4xl mx-auto space-y-12">
                     <div className="inline-block bg-cartoon-yellow border-4 border-black px-6 py-2 rotate-2 shadow-[5px_5px_0px_#000]">
-                        <h2 className="text-4xl font-black">About The Vault</h2>
+                        <h2 className="text-4xl font-cartoon uppercase tracking-wider">About The Vault</h2>
                     </div>
 
                     <div className="bg-white border-4 border-black p-8 rounded-[2rem] shadow-[10px_10px_0px_#000] text-lg font-medium space-y-6 relative overflow-hidden">
@@ -262,7 +262,7 @@ export default function Home() {
             {/* Tokenomics Section */}
             <section id="tokenomics" className="py-20 px-4">
                 <div className="max-w-6xl mx-auto text-center">
-                    <h2 className="text-5xl font-black mb-16 inline-block text-stroke-1 stroke-black drop-shadow-[3px_3px_0px_#FFDE59]">Tokenomics</h2>
+                    <h2 className="text-6xl font-cartoon mb-16 inline-block text-stroke-1 stroke-black drop-shadow-[5px_5px_0px_#FFDE59] uppercase tracking-widest">Tokenomics</h2>
 
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                         {[
@@ -288,7 +288,7 @@ export default function Home() {
                 <div className="max-w-3xl mx-auto">
                     <div className="bg-cartoon-yellow border-4 border-black p-8 md:p-12 rounded-[3rem] text-center shadow-[15px_15px_0px_#000] relative overflow-hidden">
                         <div className="relative z-10">
-                            <h2 className="text-4xl font-black mb-6 uppercase text-stroke-1 stroke-white drop-shadow-md">The Vault Security</h2>
+                            <h2 className="text-4xl font-cartoon mb-6 uppercase text-stroke-1 stroke-white drop-shadow-md tracking-wider">The Vault Security</h2>
                             <p className="text-xl font-bold mb-8">Forever locked, forever growing.</p>
 
                             <div className="bg-white border-4 border-black p-6 rounded-2xl inline-block mb-8 rotate-1">

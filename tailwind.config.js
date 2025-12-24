@@ -8,6 +8,11 @@ export default {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                cartoon: ['"Luckiest Guy"', 'cursive'],
+                chewy: ['"Chewy"', 'cursive'],
+                comic: ['"Comic Neue"', 'cursive'],
+            },
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
