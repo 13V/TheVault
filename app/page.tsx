@@ -37,7 +37,7 @@ export default function Home() {
         vaultBalance: "0.00"
     });
 
-    const CA = "Coming Soon";
+    const CA = "2oCDo9xrmcPUdmsieFcmoUXKN3k86b2RWUr2hVM7pump";
 
     const copyToClipboard = () => {
         navigator.clipboard.writeText(CA);
