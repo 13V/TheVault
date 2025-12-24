@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Comic+Neue:wght@400;700&display=swap');
+
+:root {
+    --background: #FFFDF5;
+    --foreground: #000000;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: 'Comic Neue', cursive;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Chewy', cursive;
+}
+
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: rotate(-1deg);
+    }
+
+    50% {
+        transform: rotate(1deg);
+    }
+}
+
+.animate-wiggle {
+    animation: wiggle 2s ease-in-out infinite;
+}
+
+.animate-wiggle-fast {
+    animation: wiggle 0.5s ease-in-out infinite;
+}
