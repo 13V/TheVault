@@ -112,7 +112,7 @@ export default function Home() {
                     </nav>
 
                     <div className="flex items-center gap-4">
-                        <a href="https://x.com/TreasuryCoinSol" target="_blank" className="bg-black text-white p-2 rounded-full hover:bg-cartoon-yellow hover:text-black border-2 border-black transition-all">
+                        <a href="https://x.com/thevault_sol" target="_blank" className="bg-black text-white p-2 rounded-full hover:bg-cartoon-yellow hover:text-black border-2 border-black transition-all">
                             <Twitter size={20} />
                         </a>
                         <button className="md:hidden text-black" onClick={() => setIsMenuOpen(!isMenuOpen)}>
