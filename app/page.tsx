@@ -55,7 +55,6 @@ export default function Home() {
 
     // Automated Stats Fetching
     useEffect(() => {
-        if (CA === "Coming Soon") return;
 
         const fetchLiveStats = async () => {
             try {
