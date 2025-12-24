@@ -97,7 +97,7 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <img src="/vault-3d.png" alt="Logo" className="w-12 h-12 hover:rotate-12 transition-transform mix-multiply" />
-                        <h1 className="text-2xl font-black text-cartoon-dark hidden md:block tracking-tight drop-shadow-sm font-cartoon">THE VAULT</h1>
+                        <h1 className="text-2xl text-cartoon-dark hidden md:block tracking-tight drop-shadow-sm font-cartoon">THE VAULT</h1>
                     </div>
 
                     <nav className="hidden md:flex items-center gap-6">

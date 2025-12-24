@@ -9,9 +9,9 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                cartoon: ['"Luckiest Guy"', 'cursive'],
-                chewy: ['"Chewy"', 'cursive'],
-                comic: ['"Comic Neue"', 'cursive'],
+                cartoon: ['"Luckiest Guy"', 'system-ui', 'cursive', 'sans-serif'],
+                chewy: ['"Chewy"', 'system-ui', 'cursive', 'sans-serif'],
+                comic: ['"Comic Neue"', 'system-ui', 'sans-serif'],
             },
             colors: {
                 background: "var(--background)",
